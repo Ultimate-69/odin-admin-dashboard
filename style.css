@@ -138,7 +138,7 @@ img {
 .content {
     display: flex;
     padding: 7px;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(233, 233, 233);
 }
 
 .left {
@@ -164,6 +164,7 @@ img {
     border-left: 9px solid yellowgreen;
     width: 400px;
     padding: 15px;
+    background-color: white;
 }
 
 .card-title {
@@ -186,4 +187,49 @@ img {
 .images img {
     width: 30px;
     height: 30px;
+}
+
+.right-title {
+    font-size: 26px;
+}
+
+.right {
+    padding: 25px;
+}
+
+.announcements, .trending-accounts {
+    background-color: white;
+    padding: 25px;
+    border-radius: 6px;
+}
+
+.announcement-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0pxs;
+}
+
+.announcement-body {
+    margin-top: 0px;
+    color: rgb(92, 91, 91);
+}
+
+.trending-account {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.trending-account img {
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.handle {
+    margin-bottom: 0px;
+}
+
+.project-famous {
+    margin-top: 0px;
+    color: rgb(98, 98, 98);
 }
