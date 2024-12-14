@@ -13,7 +13,6 @@ img {
 
 .container {
     display: flex;
-    gap: 10px;
 }
 
 .sidebar {
@@ -58,8 +57,32 @@ img {
 .header {
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    padding: 7px;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.greeting-area {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0px;
+}
+
+.greeting-area img {
+    border-radius: 100px;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
 }
 
 .content {
     display: flex;
+    padding: 7px;
 }
